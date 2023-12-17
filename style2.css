@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: rgb(7, 7, 34);
+    color: white;
+}
+.header{
+   /* /   background-color: aqua; */
+/* //     position: fixed;
+    top: 0;
+    left: 0;*/
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10%
+    
+}
+.logo{
+    text-decoration: none;
+    font-weight: bolder;
+    color: white;
+}
+.navbar a{
+     text-decoration: none;
+     font-weight: 700;
+     color: white;
+     margin-left:15px ;
+}
+.navbar a:hover{
+    color: rgb(175, 26, 26);
+}
+#home{
+     display: flex;
+     height: 100vh;
+     padding: 0  10%;
+     background-image: url(laptop_keyboard_.jpg);
+     background-size:cover;
+     background-repeat: no-repeat;
+     background-position: 100%;
+    
+
+     align-items: center;
+
+}
+
+.content{
+    max-width: 622px;
+    background-color: rgba(141, 109, 50, 0.623);
+    padding: 20px;
+}
+.content h1{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1.5;
+
+   
+}
+.content h3{
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 1.5;
+    color: aqua;
+    
+   
+}
+.content p{
+    
+    margin: 20px 0px 40px;
+    font-size: 15px;
+   text-align: justify;
+   
+}
+.button a{
+    background-color: aqua;
+    display: inline-flex;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid aqua;
+    border-radius: 5px;
+    width: 100px;
+    height: 100%;
+    font-size: 20px;
+    font-weight: 600px;
+    line-height: 20px;
+}
+
+.button a:nth-child(2){
+
+    background-color: transparent;
+
+    color: aqua;
+
+    margin-left: 20px;
+}
+
+.social-icon{
+
+
+    position: absolute;
+    bottom: 30px;
+    background-color: rgb(42, 121, 121);
+    background: transparent;
+    
+}
+.social-icon a{
+
+    display: inline-flex;
+    text-decoration: none;
+    color: rgb(29, 182, 182);
+    border: 1px solid aqua;
+    border-radius: 50%;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+
+    margin-left: 10px;
+    margin-bottom:5px ;
+}
