@@ -44,6 +44,8 @@ body{
 
      align-items: center;
 
+    
+
 }
 
 .content{
@@ -121,3 +123,127 @@ body{
     margin-left: 10px;
     margin-bottom:5px ;
 }
+
+.box1{
+
+    background-color: aqua;
+      
+    color: black;
+   
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-size: smaller;
+    font-weight: 500px;
+
+    line-height: 20px;
+    width: 300px;
+
+    height: 180px;
+    margin-left: 10px;
+    
+    padding: 20px;  
+    max-width: auto;  
+    text-align: center;
+}
+
+.box2{
+
+    background-color: aqua;
+
+    color: black;
+
+    justify-content: center;
+   
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-size:smaller;
+    font-weight: 500px;
+
+    line-height: 20px;
+    width: 300px;
+
+    height: 180px;
+    margin-left: 10px;
+    
+    padding: 20px;  
+    max-width: auto;  
+    text-align: center;
+
+}
+
+.box3{
+
+    background-color: aqua;
+
+    color: black;
+    justify-content: center;
+    
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-size: smaller;
+    font-weight: 500px;
+
+    line-height: 20px;
+    width: 300px;
+
+    height: 180px;
+    margin-left: 10px;
+    
+    padding: 20px;  
+    max-width: auto;  
+    text-align: center;
+}
+
+
+#home1{
+
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+#contact{
+
+    background-color: rgb(126, 116, 103);
+    height: 600px;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: ;
+
+}
+
+.contact-form{
+    background-color: #36454F;
+    height: 500px;
+    width: 40%;
+    padding-left:70px;
+    padding-top:50px ;
+    box-shadow:0 0 20px 0 aqua;
+}
+.input-field{
+    height: 40px;
+    width: 400px;
+    padding-left: 20px;
+    margin: 5px;
+    border: 1px solid aqua;
+    border-radius: 8px;
+}
+.textarea-field{
+    height:150px ;
+}
+.button1{
+    background-color:aqua ;
+    border: 1px  solid blue;
+    font-size: 15px;
+    border-radius: 11px;
+    /* height: 30px; */
+    padding: 10px;
+    margin-top: 5px;
+
+}
+
+
